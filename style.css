@@ -320,6 +320,7 @@ body {
 @media (min-width: 769px) {
   .form-area {
     margin-left: 0;
+    margin-top: 50px;
   }
 }
 
