@@ -310,7 +310,8 @@ body {
 }
 
 .form-area {
-  width: 335px;
+  width: 100%;
+  max-width: 335px;
   display: flex;
   flex-direction: column;
   margin: 20px auto;
@@ -340,12 +341,12 @@ body {
 }
 
 .nombre {
-  width: 335px;
+  max-width: 335px;
   height: 45px;
 }
 
 .email {
-  width: 335px;
+  max-width: 335px;
   height: 45px;
 }
 
@@ -354,7 +355,7 @@ body {
   font-size: 13px;
 }
 .mensaje {
-  width: 335px;
+  max-width: 335px;
   height: 113px;
 }
 
@@ -367,7 +368,8 @@ body {
   font-family: "Roboto";
   font-size: 16px;
   font-weight: 700;
-  width: 335px;
+  width: 100%;
+  max-width: 335px;
   height: 45px;
   margin: 30px auto;
   background-color: #bc5ef7;
